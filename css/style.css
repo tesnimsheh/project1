@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #eee;
+}
+ ul{
+    background-color:rgba(30, 25, 25, 0.214);
+ 
+    padding-top: 15px;
+    padding-bottom: 20px;
+    ;
+}
+ ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+nav ul li:hover{
+    background-color: rgba(250, 249, 250, 0.874);
+   
+}
+nav ul li a{
+    color: rgb(103, 15, 57);
+    text-decoration: none;
+    font-size: larger;
+}
+nav ul li a:hover{
+    color: black;
+}
+.main-img{
+    height: 300px;
+    background-image:url('../images/img2.jpg') ;
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.content .row h1{
+    color: rgb(103, 15, 57);
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-top: 40px;
+}
+.content .first{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 0px;
+   
+   
+}
+.content .row img{
+    max-width: 170px;
+    max-height: 150px;
+ margin-top: 10px;
+  ;
+    margin-left: 0px;
+    margin-right: auto;
+
+
+}
+.contanier{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+ 
+}
+
+.contanier h2{
+    margin: 20px auto;
+    font-size: 40px;
+    color: rgb(103, 15, 57);
+}
+
+
+.features{
+    display: flex;
+   
+}
+.features .feature{
+    text-align: center;
+    background-color:white ;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius:10px ;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.features .feature:hover{
+    box-shadow: 3px 3px 10px rgb(138, 109, 167) ;
+    transform: translateX(4px);
+    background-color: rgb(254, 239, 239);
+}
+.features .feature i:hover{
+    background-color: black;
+}
+
+.feature i{
+    padding-top: 20px;
+    font-size: 30px;
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 50%;
+    color: aliceblue;
+}
+.feature h3{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-form{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    padding-top: 45px;
+    text-align: center;
+
+   
+}
+.contact-us{
+    margin-top: 50px;
+}
+.input-form{
+    margin-bottom: 20px;
+
+}
+.input-form input{
+    width: 400px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+textarea{
+    width: 400px;
+    height: 135px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+button{
+    background-color: rgb(251, 222, 252);
+    color: rgb(46, 19, 71);
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+   
+
+
+}
+button:hover{
+    background-color: rgba(84, 55, 85, 0.447);
+    transform: translateX(2px);
+
+}
+
+.inner-footer {
+    text-align: center;
+    color: rgb(46, 19, 72);
+    font-size: larger;
+    margin-top: 100px;
+    margin-bottom: 10px;
+ 
+}
+.inner-footer ul li a{
+    transition: 0.5s;
+}
+.inner-footer ul li a:hover{
+    color: rgba(34, 16, 175, 0.867);
+  
+
+    font-size: x-large;
+  
+}
+
